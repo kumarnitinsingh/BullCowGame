@@ -1,0 +1,472 @@
+Running AutomationTool...
+Parsing command line: -ScriptsForProject=C:/repos/BullCowGame/BullCowGame-starter-kit/BullCowGame.uproject BuildCookRun -project=C:/repos/BullCowGame/BullCowGame-starter-kit/BullCowGame.uproject -noP4 -clientconfig=Shipping -serverconfig=Shipping -nocompile -nocompileeditor -installed -ue4exe=UE4Editor-Cmd.exe -utf8output -platform=Win64 -targetplatform=Win64 -build -cook -map=Level1 -unversionedcookedcontent -pak -createreleaseversion=1.0 -compressed -stage -package -cmdline="Level1 -Messaging" -addcmdline="-SessionId=F6A04A2B4B434A088BF739999BC66CFF -SessionOwner='nitin singh' -SessionName='BullCowGame' "
+Setting up ProjectParams for C:\repos\BullCowGame\BullCowGame-starter-kit\BullCowGame.uproject
+********** BUILD COMMAND STARTED **********
+Running: C:\Program Files\UE_4.22\Engine\Binaries\DotNET\UnrealBuildTool.exe BullCowGame Win64 Shipping -Project=C:\repos\BullCowGame\BullCowGame-starter-kit\BullCowGame.uproject  C:\repos\BullCowGame\BullCowGame-starter-kit\BullCowGame.uproject -NoUBTMakefiles  -remoteini="C:\repos\BullCowGame\BullCowGame-starter-kit" -skipdeploy -Manifest=C:\repos\BullCowGame\BullCowGame-starter-kit\Intermediate\Build\Manifest.xml -NoHotReload -log="C:\Users\nitin singh\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+UE_4.22\UBT-BullCowGame-Win64-Shipping.txt"
+  Writing manifest to C:\repos\BullCowGame\BullCowGame-starter-kit\Intermediate\Build\Manifest.xml
+  Target is up to date
+  Total execution time: 4.18 seconds
+Took 4.3580422s to run UnrealBuildTool.exe, ExitCode=0
+********** BUILD COMMAND COMPLETED **********
+********** COOK COMMAND STARTED **********
+HasMapsToCook Level1
+Params.HasMapsToCook Level1
+Running UE4Editor Cook for project C:\repos\BullCowGame\BullCowGame-starter-kit\BullCowGame.uproject
+Commandlet log file is C:\Program Files\UE_4.22\Engine\Programs\AutomationTool\Saved\Cook-2020.11.23-22.39.58.txt
+Running: C:\Program Files\UE_4.22\Engine\Binaries\Win64\UE4Editor-Cmd.exe C:\repos\BullCowGame\BullCowGame-starter-kit\BullCowGame.uproject -run=Cook -Map=Level1 -TargetPlatform=WindowsNoEditor -fileopenlog -unversioned -createreleaseversion=1.0 -abslog="C:\Program Files\UE_4.22\Engine\Programs\AutomationTool\Saved\Cook-2020.11.23-22.39.58.txt" -stdout -CrashForUAT -unattended -NoLogTimes  -UTF8Output
+  LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+  LogInit: Display: Running engine for game: BullCowGame
+  LogHAL: Display: Platform has ~ 8 GB [8502808576 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+  LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+  LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+  LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+  LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+  LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+  LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+  LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+  LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+  LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+  LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+  LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+  LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+  LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+  LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+  LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+  LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+  LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+  LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+  LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+  LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+  LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+  LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+  LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+  LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+  LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+  LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+  LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+  LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+  LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+  LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+  LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+  LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+  LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+  LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+  LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+  LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+  LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+  LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+  LogTargetPlatformManager: Display: Building Assets For WindowsNoEditor
+  LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+  LogShaderCompilers: Display: Using Local Shader Compiler.
+  LogDerivedDataCache: Display: Max Cache Size: 512 MB
+  LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/nitin singh/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+  LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+  LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+  LogCook: Display: Mobile HDR setting 1
+  LogCook: Display: Creating asset registry
+  LogCook: Display: Discovering localized assets
+  LogCook: Display: Cooked content cleared for platform WindowsNoEditor
+  LogCook: Display: Unable to read previous cook inisettings for platform WindowsNoEditor invalidating cook
+  LogCook: Display: Sandbox cleanup took 2.313 seconds for platforms WindowsNoEditor  iterative false
+  LogCook: Display: Cooked packages 0 Packages Remain 172 Total 172
+  LogCook: Display: Cooked packages 50 Packages Remain 171 Total 221
+  LogCook: Display: Cooked packages 100 Packages Remain 202 Total 302
+  LogCook: Display: Cooked packages 150 Packages Remain 202 Total 352
+  LogCook: Display: Cooked packages 200 Packages Remain 201 Total 401
+  LogCook: Display: Cooked packages 221 Packages Remain 200 Total 421
+  LogCook: Display: Cooked packages 222 Packages Remain 199 Total 421
+  LogCook: Display: Cooked packages 223 Packages Remain 198 Total 421
+  LogCook: Display: Cooked packages 225 Packages Remain 197 Total 422
+  LogCook: Display: Cooked packages 226 Packages Remain 196 Total 422
+  LogCook: Display: Cooked packages 226 Packages Remain 195 Total 421
+  LogCook: Display: Cooked packages 226 Packages Remain 194 Total 420
+  LogCook: Display: Cooked packages 226 Packages Remain 193 Total 419
+  LogCook: Display: Cooked packages 226 Packages Remain 192 Total 418
+  LogCook: Display: Cooked packages 226 Packages Remain 191 Total 417
+  LogCook: Display: Cooked packages 226 Packages Remain 190 Total 416
+  LogCook: Display: Cooked packages 226 Packages Remain 189 Total 415
+  LogCook: Display: Cooked packages 226 Packages Remain 188 Total 414
+  LogCook: Display: Cooked packages 226 Packages Remain 187 Total 413
+  LogCook: Display: Cooked packages 226 Packages Remain 186 Total 412
+  LogCook: Display: Cooked packages 226 Packages Remain 185 Total 411
+  LogCook: Display: Cooked packages 226 Packages Remain 184 Total 410
+  LogCook: Display: Cooked packages 226 Packages Remain 183 Total 409
+  LogCook: Display: Cooked packages 226 Packages Remain 182 Total 408
+  LogCook: Display: Cooked packages 226 Packages Remain 181 Total 407
+  LogCook: Display: Cooked packages 226 Packages Remain 180 Total 406
+  LogCook: Display: Cooked packages 226 Packages Remain 179 Total 405
+  LogCook: Display: Cooked packages 226 Packages Remain 178 Total 404
+  LogCook: Display: Cooked packages 226 Packages Remain 177 Total 403
+  LogCook: Display: Cooked packages 226 Packages Remain 176 Total 402
+  LogCook: Display: Cooked packages 226 Packages Remain 175 Total 401
+  LogCook: Display: Cooked packages 226 Packages Remain 174 Total 400
+  LogCook: Display: Cooked packages 226 Packages Remain 173 Total 399
+  LogCook: Display: Cooked packages 226 Packages Remain 172 Total 398
+  LogCook: Display: Cooked packages 226 Packages Remain 171 Total 397
+  LogCook: Display: Cooked packages 226 Packages Remain 170 Total 396
+  LogCook: Display: Cooked packages 226 Packages Remain 169 Total 395
+  LogCook: Display: Cooked packages 226 Packages Remain 168 Total 394
+  LogCook: Display: Cooked packages 226 Packages Remain 167 Total 393
+  LogCook: Display: Cooked packages 226 Packages Remain 166 Total 392
+  LogCook: Display: Cooked packages 226 Packages Remain 165 Total 391
+  LogCook: Display: Cooked packages 226 Packages Remain 164 Total 390
+  LogCook: Display: Cooked packages 226 Packages Remain 163 Total 389
+  LogCook: Display: Cooked packages 226 Packages Remain 162 Total 388
+  LogCook: Display: Cooked packages 226 Packages Remain 161 Total 387
+  LogCook: Display: Cooked packages 226 Packages Remain 160 Total 386
+  LogCook: Display: Cooked packages 226 Packages Remain 159 Total 385
+  LogCook: Display: Cooked packages 226 Packages Remain 158 Total 384
+  LogCook: Display: Cooked packages 226 Packages Remain 157 Total 383
+  LogCook: Display: Cooked packages 226 Packages Remain 156 Total 382
+  LogCook: Display: Cooked packages 226 Packages Remain 155 Total 381
+  LogCook: Display: Cooked packages 226 Packages Remain 154 Total 380
+  LogCook: Display: Cooked packages 226 Packages Remain 153 Total 379
+  LogCook: Display: Cooked packages 226 Packages Remain 152 Total 378
+  LogCook: Display: Cooked packages 226 Packages Remain 151 Total 377
+  LogCook: Display: Cooked packages 226 Packages Remain 150 Total 376
+  LogCook: Display: Cooked packages 226 Packages Remain 149 Total 375
+  LogCook: Display: Cooked packages 226 Packages Remain 148 Total 374
+  LogCook: Display: Cooked packages 226 Packages Remain 147 Total 373
+  LogCook: Display: Cooked packages 226 Packages Remain 146 Total 372
+  LogCook: Display: Cooked packages 226 Packages Remain 145 Total 371
+  LogCook: Display: Cooked packages 226 Packages Remain 144 Total 370
+  LogCook: Display: Cooked packages 226 Packages Remain 143 Total 369
+  LogCook: Display: Cooked packages 226 Packages Remain 142 Total 368
+  LogCook: Display: Cooked packages 226 Packages Remain 141 Total 367
+  LogCook: Display: Cooked packages 226 Packages Remain 140 Total 366
+  LogCook: Display: Cooked packages 226 Packages Remain 139 Total 365
+  LogCook: Display: Cooked packages 226 Packages Remain 138 Total 364
+  LogCook: Display: Cooked packages 226 Packages Remain 137 Total 363
+  LogCook: Display: Cooked packages 226 Packages Remain 136 Total 362
+  LogCook: Display: Cooked packages 226 Packages Remain 135 Total 361
+  LogCook: Display: Cooked packages 226 Packages Remain 134 Total 360
+  LogCook: Display: Cooked packages 226 Packages Remain 133 Total 359
+  LogCook: Display: Cooked packages 226 Packages Remain 132 Total 358
+  LogCook: Display: Cooked packages 226 Packages Remain 131 Total 357
+  LogCook: Display: Cooked packages 226 Packages Remain 130 Total 356
+  LogCook: Display: Cooked packages 226 Packages Remain 129 Total 355
+  LogCook: Display: Cooked packages 226 Packages Remain 128 Total 354
+  LogCook: Display: Cooked packages 226 Packages Remain 127 Total 353
+  LogCook: Display: Cooked packages 226 Packages Remain 126 Total 352
+  LogCook: Display: Cooked packages 226 Packages Remain 125 Total 351
+  LogCook: Display: Cooked packages 226 Packages Remain 124 Total 350
+  LogCook: Display: Cooked packages 226 Packages Remain 123 Total 349
+  LogCook: Display: Cooked packages 226 Packages Remain 122 Total 348
+  LogCook: Display: Cooked packages 226 Packages Remain 121 Total 347
+  LogCook: Display: Cooked packages 226 Packages Remain 120 Total 346
+  LogCook: Display: Cooked packages 226 Packages Remain 119 Total 345
+  LogCook: Display: Cooked packages 226 Packages Remain 118 Total 344
+  LogCook: Display: Cooked packages 226 Packages Remain 117 Total 343
+  LogCook: Display: Cooked packages 226 Packages Remain 116 Total 342
+  LogCook: Display: Cooked packages 226 Packages Remain 115 Total 341
+  LogCook: Display: Cooked packages 226 Packages Remain 114 Total 340
+  LogCook: Display: Cooked packages 226 Packages Remain 113 Total 339
+  LogCook: Display: Cooked packages 226 Packages Remain 112 Total 338
+  LogCook: Display: Cooked packages 226 Packages Remain 111 Total 337
+  LogCook: Display: Cooked packages 226 Packages Remain 110 Total 336
+  LogCook: Display: Cooked packages 226 Packages Remain 109 Total 335
+  LogCook: Display: Cooked packages 226 Packages Remain 108 Total 334
+  LogCook: Display: Cooked packages 226 Packages Remain 107 Total 333
+  LogCook: Display: Cooked packages 226 Packages Remain 106 Total 332
+  LogCook: Display: Cooked packages 226 Packages Remain 105 Total 331
+  LogCook: Display: Cooked packages 226 Packages Remain 104 Total 330
+  LogCook: Display: Cooked packages 226 Packages Remain 103 Total 329
+  LogCook: Display: Cooked packages 226 Packages Remain 102 Total 328
+  LogCook: Display: Cooked packages 226 Packages Remain 101 Total 327
+  LogCook: Display: Cooked packages 226 Packages Remain 100 Total 326
+  LogCook: Display: Cooked packages 226 Packages Remain 99 Total 325
+  LogCook: Display: Cooked packages 226 Packages Remain 98 Total 324
+  LogCook: Display: Cooked packages 226 Packages Remain 97 Total 323
+  LogCook: Display: Cooked packages 226 Packages Remain 96 Total 322
+  LogCook: Display: Cooked packages 226 Packages Remain 95 Total 321
+  LogCook: Display: Cooked packages 226 Packages Remain 94 Total 320
+  LogCook: Display: Cooked packages 226 Packages Remain 93 Total 319
+  LogCook: Display: Cooked packages 226 Packages Remain 92 Total 318
+  LogCook: Display: Cooked packages 226 Packages Remain 91 Total 317
+  LogCook: Display: Cooked packages 226 Packages Remain 90 Total 316
+  LogCook: Display: Cooked packages 226 Packages Remain 89 Total 315
+  LogCook: Display: Cooked packages 226 Packages Remain 88 Total 314
+  LogCook: Display: Cooked packages 226 Packages Remain 87 Total 313
+  LogCook: Display: Cooked packages 226 Packages Remain 86 Total 312
+  LogCook: Display: Cooked packages 226 Packages Remain 85 Total 311
+  LogCook: Display: Cooked packages 226 Packages Remain 84 Total 310
+  LogCook: Display: Cooked packages 226 Packages Remain 83 Total 309
+  LogCook: Display: Cooked packages 226 Packages Remain 82 Total 308
+  LogCook: Display: Cooked packages 226 Packages Remain 81 Total 307
+  LogCook: Display: Cooked packages 226 Packages Remain 80 Total 306
+  LogCook: Display: Cooked packages 226 Packages Remain 79 Total 305
+  LogCook: Display: Cooked packages 226 Packages Remain 78 Total 304
+  LogCook: Display: Cooked packages 226 Packages Remain 77 Total 303
+  LogCook: Display: Cooked packages 226 Packages Remain 76 Total 302
+  LogCook: Display: Cooked packages 226 Packages Remain 75 Total 301
+  LogCook: Display: Cooked packages 226 Packages Remain 74 Total 300
+  LogCook: Display: Cooked packages 226 Packages Remain 73 Total 299
+  LogCook: Display: Cooked packages 226 Packages Remain 72 Total 298
+  LogCook: Display: Cooked packages 226 Packages Remain 71 Total 297
+  LogCook: Display: Cooked packages 226 Packages Remain 70 Total 296
+  LogCook: Display: Cooked packages 226 Packages Remain 69 Total 295
+  LogCook: Display: Cooked packages 226 Packages Remain 68 Total 294
+  LogCook: Display: Cooked packages 226 Packages Remain 67 Total 293
+  LogCook: Display: Cooked packages 226 Packages Remain 66 Total 292
+  LogCook: Display: Cooked packages 226 Packages Remain 65 Total 291
+  LogCook: Display: Cooked packages 226 Packages Remain 64 Total 290
+  LogCook: Display: Cooked packages 226 Packages Remain 63 Total 289
+  LogCook: Display: Cooked packages 226 Packages Remain 62 Total 288
+  LogCook: Display: Cooked packages 226 Packages Remain 61 Total 287
+  LogCook: Display: Cooked packages 226 Packages Remain 60 Total 286
+  LogCook: Display: Cooked packages 226 Packages Remain 59 Total 285
+  LogCook: Display: Cooked packages 226 Packages Remain 58 Total 284
+  LogCook: Display: Cooked packages 226 Packages Remain 57 Total 283
+  LogCook: Display: Cooked packages 226 Packages Remain 56 Total 282
+  LogCook: Display: Cooked packages 226 Packages Remain 55 Total 281
+  LogCook: Display: Cooked packages 226 Packages Remain 54 Total 280
+  LogCook: Display: Cooked packages 226 Packages Remain 53 Total 279
+  LogCook: Display: Cooked packages 226 Packages Remain 52 Total 278
+  LogCook: Display: Cooked packages 226 Packages Remain 51 Total 277
+  LogCook: Display: Cooked packages 238 Packages Remain 51 Total 289
+  LogCook: Display: Cooked packages 240 Packages Remain 50 Total 290
+  LogCook: Display: Cooked packages 245 Packages Remain 49 Total 294
+  LogCook: Display: Cooked packages 245 Packages Remain 48 Total 293
+  LogCook: Display: Cooked packages 245 Packages Remain 47 Total 292
+  LogCook: Display: Cooked packages 245 Packages Remain 46 Total 291
+  LogCook: Display: Cooked packages 245 Packages Remain 45 Total 290
+  LogCook: Display: Cooked packages 245 Packages Remain 44 Total 289
+  LogCook: Display: Cooked packages 245 Packages Remain 43 Total 288
+  LogCook: Display: Cooked packages 245 Packages Remain 42 Total 287
+  LogCook: Display: Cooked packages 245 Packages Remain 41 Total 286
+  LogCook: Display: Cooked packages 245 Packages Remain 40 Total 285
+  LogCook: Display: Cooked packages 245 Packages Remain 39 Total 284
+  LogCook: Display: Cooked packages 245 Packages Remain 38 Total 283
+  LogCook: Display: Cooked packages 245 Packages Remain 37 Total 282
+  LogCook: Display: Cooked packages 245 Packages Remain 36 Total 281
+  LogCook: Display: Cooked packages 245 Packages Remain 35 Total 280
+  LogCook: Display: Cooked packages 245 Packages Remain 34 Total 279
+  LogCook: Display: Cooked packages 245 Packages Remain 33 Total 278
+  LogCook: Display: Cooked packages 245 Packages Remain 32 Total 277
+  LogCook: Display: Cooked packages 245 Packages Remain 31 Total 276
+  LogCook: Display: Cooked packages 245 Packages Remain 30 Total 275
+  LogCook: Display: Cooked packages 245 Packages Remain 29 Total 274
+  LogCook: Display: Cooked packages 245 Packages Remain 28 Total 273
+  LogCook: Display: Cooked packages 245 Packages Remain 27 Total 272
+  LogCook: Display: Cooked packages 245 Packages Remain 26 Total 271
+  LogCook: Display: Cooked packages 245 Packages Remain 25 Total 270
+  LogCook: Display: Cooked packages 245 Packages Remain 24 Total 269
+  LogCook: Display: Cooked packages 245 Packages Remain 23 Total 268
+  LogCook: Display: Cooked packages 245 Packages Remain 22 Total 267
+  LogCook: Display: Cooked packages 245 Packages Remain 21 Total 266
+  LogCook: Display: Cooked packages 245 Packages Remain 20 Total 265
+  LogCook: Display: Cooked packages 245 Packages Remain 19 Total 264
+  LogCook: Display: Cooked packages 245 Packages Remain 18 Total 263
+  LogCook: Display: Cooked packages 245 Packages Remain 17 Total 262
+  LogCook: Display: Cooked packages 245 Packages Remain 16 Total 261
+  LogCook: Display: Cooked packages 245 Packages Remain 15 Total 260
+  LogCook: Display: Cooked packages 245 Packages Remain 14 Total 259
+  LogCook: Display: Cooked packages 245 Packages Remain 13 Total 258
+  LogCook: Display: Cooked packages 245 Packages Remain 12 Total 257
+  LogCook: Display: Cooked packages 245 Packages Remain 11 Total 256
+  LogCook: Display: Cooked packages 245 Packages Remain 10 Total 255
+  LogCook: Display: Cooked packages 245 Packages Remain 9 Total 254
+  LogCook: Display: Cooked packages 245 Packages Remain 8 Total 253
+  LogCook: Display: Cooked packages 245 Packages Remain 7 Total 252
+  LogCook: Display: Cooked packages 245 Packages Remain 6 Total 251
+  LogCook: Display: Cooked packages 245 Packages Remain 5 Total 250
+  LogCook: Display: Cooked packages 245 Packages Remain 4 Total 249
+  LogCook: Display: Cooked packages 245 Packages Remain 3 Total 248
+  LogCook: Display: Cooked packages 245 Packages Remain 2 Total 247
+  LogCook: Display: Cooked packages 245 Packages Remain 1 Total 246
+  LogBlueprintCodeGen: Display: Nativization Summary - AnimBP:
+  LogBlueprintCodeGen: Display: Name, Children, Non-empty Functions (Empty Functions), Variables, FunctionUsage, VariableUsage
+  LogBlueprintCodeGen: Display: Nativization Summary - Shared Variables From Graph: 0
+  LogAssetRegistryGenerator: Display: Saving asset registry.
+  LogAssetRegistryGenerator: Display: Generated asset registry num assets 240, size is 97.96kb
+  LogAssetRegistryGenerator: Display: Done saving asset registry.
+  LogCook: Display: Cook by the book total time in tick 11.761057s total time 18.595005
+  LogCook: Display: Peak Used virtual 577MB Peak Used physical 535MB
+  LogCook: Display: Hierarchy Timer Information:
+  LogCook: Display:   Root: 0.000s (0)
+  LogCook: Display:     StartCookByTheBookTime: 5.885s (1)
+  LogCook: Display:       GenerateAssetRegistryTime: 0.365s (1)
+  LogCook: Display:       CleanSandboxTime: 2.313s (1)
+  LogCook: Display:         ProcessingAccessedStrings: 0.038s (1)
+  LogCook: Display:       CollectFilesToCook: 0.967s (1)
+  LogCook: Display:         CookModificationDelegate: 0.000s (1)
+  LogCook: Display:         SearchForPackageOnDisk: 0.269s (1)
+  LogCook: Display:         GeneratePackageNames: 0.000s (1)
+  LogCook: Display:       GenerateLongPackageName: 0.002s (1)
+  LogCook: Display:     TickCookOnTheSide: 11.672s (27)
+  LogCook: Display:       LoadPackage: 2.536s (27)
+  LogCook: Display:       CallBeginCacheForCookedPlatformData: 0.244s (27)
+  LogCook: Display:       PostLoadPackageFixup: 0.000s (27)
+  LogCook: Display:       SavingPackages: 8.889s (12)
+  LogCook: Display:         PrecachePlatformDataForNextPackage: 0.001s (253)
+  LogCook: Display:         PrecachePlatformDataForNextNextPackage: 2.792s (248)
+  LogCook: Display:         SaveCookedPackage: 6.055s (245)
+  LogCook: Display:           LoadPackage: 0.001s (245)
+  LogCook: Display:           GEditorSavePackage: 6.025s (245)
+  LogCook: Display:             ConvertingBlueprints: 0.016s (245)
+  LogCook: Display:             VerifyCanCookPackage: 0.002s (240)
+  LogCook: Display:         ClearAllCachedCookedPlatformData: 0.020s (245)
+  LogCook: Display:         EnqueueUnsavedPackages: 0.000s (5)
+  LogCook: Display:     GeneratingBlueprintAssets: 0.010s (1)
+  LogCook: Display:     SavingCurrentIniSettings: 0.121s (1)
+  LogCook: Display:       ProcessingAccessedStrings: 0.035s (1)
+  LogCook: Display:     SavingAssetRegistry: 0.240s (1)
+  LogCook: Display:       BuildChunkManifest: 0.033s (1)
+  LogCook: Display:       SaveManifests: 0.000s (1)
+  LogCook: Display:       SaveRealAssetRegistry: 0.050s (1)
+  LogCook: Display:       WriteCookerOpenOrder: 0.153s (1)
+  LogSavePackage: Display: Took 0.008973s to verify the EDL loading graph.
+  LogCookCommandlet: Display: Misc Cook Stats
+  LogCookCommandlet: Display: ===============
+  LogCookCommandlet: Display: ShaderCompiler
+  LogCookCommandlet: Display:     BlockingTimeSec=0.000001
+  LogCookCommandlet: Display:     AsyncCompileTimeSec=0.000000
+  LogCookCommandlet: Display:     GlobalBeginCompileShaderTimeSec=0.000000
+  LogCookCommandlet: Display:     GlobalBeginCompileShaderCalls=0
+  LogCookCommandlet: Display:     ProcessAsyncResultsTimeSec=0.000103
+  LogCookCommandlet: Display: GlobalShader.Misc
+  LogCookCommandlet: Display:     ShadersCompiled=0
+  LogCookCommandlet: Display: MeshMaterial.Misc
+  LogCookCommandlet: Display:     ShadersCompiled=0
+  LogCookCommandlet: Display: MaterialShader.Misc
+  LogCookCommandlet: Display:     ShadersCompiled=0
+  LogCookCommandlet: Display: Package.Load
+  LogCookCommandlet: Display:     NumPackagesLoaded=144
+  LogCookCommandlet: Display:     LoadPackageTimeSec=4.071168
+  LogCookCommandlet: Display: Package.Save
+  LogCookCommandlet: Display:     NumPackagesSaved=245
+  LogCookCommandlet: Display:     SavePackageTimeSec=5.954953
+  LogCookCommandlet: Display:     TagPackageExportsPresaveTimeSec=0.328920
+  LogCookCommandlet: Display:     TagPackageExportsTimeSec=0.234329
+  LogCookCommandlet: Display:     ResetLoadersForSaveTimeSec=0.002271
+  LogCookCommandlet: Display:     TagPackageExportsGetObjectsWithOuter=0.003598
+  LogCookCommandlet: Display:     TagPackageExportsGetObjectsWithMarks=0.000500
+  LogCookCommandlet: Display:     SerializeImportsTimeSec=0.000000
+  LogCookCommandlet: Display:     SortExportsSeekfreeInnerTimeSec=0.327174
+  LogCookCommandlet: Display:     SerializeExportsTimeSec=0.570448
+  LogCookCommandlet: Display:     SerializeBulkDataTimeSec=0.191326
+  LogCookCommandlet: Display:     AsyncWriteTimeSec=0.417729
+  LogCookCommandlet: Display:     MBWritten=96.918130
+  LogCookCommandlet: Display: Package.DifferentPackagesSizeMBPerAsset
+  LogCookCommandlet: Display: Package.NumberOfDifferencesInPackagesPerAsset
+  LogCookCommandlet: Display: Package.PackageDifferencesSizeMBPerAsset
+  LogCookCommandlet: Display: Package.DiffTotal
+  LogCookCommandlet: Display:     NumberOfDifferentPackages=0
+  LogCookCommandlet: Display:     DifferentPackagesSizeMB=0.000000
+  LogCookCommandlet: Display:     NumberOfDifferencesInPackages=0
+  LogCookCommandlet: Display:     PackageDifferencesSizeMB=0.000000
+  LogCookCommandlet: Display:
+  LogCookCommandlet: Display: Cook Profile
+  LogCookCommandlet: Display: ============
+  LogCookCommandlet: Display:  0.CookWallTimeSec=38.829134
+  LogCookCommandlet: Display:  0. 0.StartupWallTimeSec=20.182054
+  LogCookCommandlet: Display:  0. 1.CookByTheBookTimeSec=18.647052
+  LogCookCommandlet: Display:  0. 1. 0.StartCookByTheBookTimeSec=5.885139
+  LogCookCommandlet: Display:  0. 1. 0. 0.GameCookModificationDelegateTimeSec=0.000023
+  LogCookCommandlet: Display:  0. 1. 1.TickCookOnTheSideTimeSec=12.719515
+  LogCookCommandlet: Display:  0. 1. 1. 0.TickCookOnTheSideLoadPackagesTimeSec=2.536698
+  LogCookCommandlet: Display:  0. 1. 1. 1.TickCookOnTheSideSaveCookedPackageTimeSec=6.055118
+  LogCookCommandlet: Display:  0. 1. 1. 1. 0.TickCookOnTheSideResolveRedirectorsTimeSec=0.000000
+  LogCookCommandlet: Display:  0. 1. 1. 2.TickCookOnTheSideBeginPackageCacheForCookedPlatformDataTimeSec=3.034673
+  LogCookCommandlet: Display:  0. 1. 1. 3.TickCookOnTheSideFinishPackageCacheForCookedPlatformDataTimeSec=0.017482
+  LogCookCommandlet: Display:  0. 1. 2.TickLoopGCTimeSec=0.000000
+  LogCookCommandlet: Display:  0. 1. 3.TickLoopRecompileShaderRequestsTimeSec=0.000077
+  LogCookCommandlet: Display:  0. 1. 4.TickLoopShaderProcessAsyncResultsTimeSec=0.000025
+  LogCookCommandlet: Display:  0. 1. 5.TickLoopProcessDeferredCommandsTimeSec=0.000028
+  LogCookCommandlet: Display:  0. 1. 6.TickLoopTickCommandletStatsTimeSec=0.000005
+  LogCookCommandlet: Display:
+  LogCookCommandlet: Display: DDC Summary Stats
+  LogCookCommandlet: Display: =================
+  LogCookCommandlet: Display: TotalGetHits  =       969
+  LogCookCommandlet: Display: TotalGets     =       969
+  LogCookCommandlet: Display: TotalGetHitPct=  1.000000
+  LogCookCommandlet: Display: LocalGetHitPct=  0.394221
+  LogCookCommandlet: Display: SharedGetHitPct=  0.000000
+  LogCookCommandlet: Display: OtherGetHitPct=  0.605779
+  LogCookCommandlet: Display: GetMissPct    =  0.000000
+  LogCookCommandlet: Display: TotalPutHits  =       125
+  LogCookCommandlet: Display: TotalPuts     =       125
+  LogCookCommandlet: Display: TotalPutHitPct=  1.000000
+  LogCookCommandlet: Display: PutMissPct    =  0.000000
+  LogCookCommandlet: Display:
+  LogCookCommandlet: Display: DDC Resource Stats
+  LogCookCommandlet: Display: =======================================================================================================
+  LogCookCommandlet: Display: Asset Type                          Total Time (Sec)  GameThread Time (Sec)  Assets Built  MB Processed
+  LogCookCommandlet: Display: ----------------------------------  ----------------  ---------------------  ------------  ------------
+  LogCookCommandlet: Display: Texture (Streaming)                             2.34                   0.00             0         26.64
+  LogCookCommandlet: Display: MaterialShader                                  1.71                   1.71             0         10.24
+  LogCookCommandlet: Display: PhysX (BodySetup)                               1.32                   1.32             0          6.80
+  LogCookCommandlet: Display: StaticMesh                                      0.08                   0.08             0          4.74
+  LogCookCommandlet: Display: GlobalShader                                    0.06                   0.06             0          5.14
+  LogCookCommandlet: Display: LandscapeCollision (Heightfield)                0.06                   0.06             0          2.75
+  LogCookCommandlet: Display: NavCollision                                    0.01                   0.01             0          0.03
+  LogCookCommandlet: Display: Texture (Inline)                                0.00                   0.00             0         51.33
+  LogCookCommandlet: Display: DistanceField                                   0.00                   0.00             0          0.00
+  LogCookCommandlet: Display: SoundWave                                       0.00                   0.00             0          0.03
+  LogInit: Display:
+  LogInit: Display: Success - 0 error(s), 0 warning(s)
+  LogInit: Display:
+
+  Execution of commandlet took:  18.79 seconds
+  LogShaderCompilers: Display: Shaders left to compile 0
+  FGlobalReadBuffer::ReleaseRHI
+  FGlobalDynamicReadBuffer::Cleanup()
+  FGlobalReadBuffer::ReleaseRHI
+  FGlobalDynamicReadBuffer::Cleanup()
+  FGlobalReadBuffer::ReleaseRHI
+  FGlobalDynamicReadBuffer::Cleanup()
+Took 42.0249195s to run UE4Editor-Cmd.exe, ExitCode=0
+********** COOK COMMAND COMPLETED **********
+********** STAGE COMMAND STARTED **********
+Creating Staging Manifest...
+Excluding config file C:\Program Files\UE_4.22\Engine\Config\BaseEditor.ini
+Excluding config file C:\Program Files\UE_4.22\Engine\Config\BaseEditorKeyBindings.ini
+Excluding config file C:\Program Files\UE_4.22\Engine\Config\BaseEditorLayout.ini
+Excluding config file C:\Program Files\UE_4.22\Engine\Config\BaseEditorPerProjectUserSettings.ini
+Excluding config file C:\Program Files\UE_4.22\Engine\Config\BaseEditorSettings.ini
+Excluding config file C:\Program Files\UE_4.22\Engine\Config\BaseLightmass.ini
+Excluding config file C:\Program Files\UE_4.22\Engine\Config\BasePakFileRules.ini
+Excluding config file C:\Program Files\UE_4.22\Engine\Config\ConsoleVariables.ini
+Excluding config file C:\Program Files\UE_4.22\Engine\Config\Localization\Category.ini
+Excluding config file C:\Program Files\UE_4.22\Engine\Config\Localization\Category_Compile.ini
+Excluding config file C:\Program Files\UE_4.22\Engine\Config\Localization\Editor.ini
+Excluding config file C:\Program Files\UE_4.22\Engine\Config\Localization\EditorTutorials.ini
+Excluding config file C:\Program Files\UE_4.22\Engine\Config\Localization\Engine.ini
+Excluding config file C:\Program Files\UE_4.22\Engine\Config\Localization\Keywords.ini
+Excluding config file C:\Program Files\UE_4.22\Engine\Config\Localization\Keywords_Compile.ini
+Excluding config file C:\Program Files\UE_4.22\Engine\Config\Localization\PortableObjectExport.ini
+Excluding config file C:\Program Files\UE_4.22\Engine\Config\Localization\PortableObjectImport.ini
+Excluding config file C:\Program Files\UE_4.22\Engine\Config\Localization\PropertyNames.ini
+Excluding config file C:\Program Files\UE_4.22\Engine\Config\Localization\RepairData.ini
+Excluding config file C:\Program Files\UE_4.22\Engine\Config\Localization\ToolTips.ini
+Excluding config file C:\Program Files\UE_4.22\Engine\Config\Localization\ToolTips_Compile.ini
+Excluding config file C:\Program Files\UE_4.22\Engine\Config\Localization\WordCount.ini
+Excluding config file C:\repos\BullCowGame\BullCowGame-starter-kit\Config\DefaultEditor.ini
+Cleaning Stage Directory: C:\repos\BullCowGame\BullCowGame-starter-kit\Saved\StagedBuilds\WindowsNoEditor
+Creating pak using staging manifest.
+Executing 1 UnrealPak command...
+Waiting for child processes to complete (0/1)
+Waiting for child processes to complete (0/1)
+Waiting for child processes to complete (1/1)
+Output from: C:\repos\BullCowGame\BullCowGame-starter-kit\Saved\StagedBuilds\WindowsNoEditor\BullCowGame\Content\Paks\BullCowGame-WindowsNoEditor.pak -create="C:\Users\nitin singh\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+UE_4.22\PakList_BullCowGame-WindowsNoEditor.txt" -cryptokeys=C:\repos\BullCowGame\BullCowGame-starter-kit\Saved\Cooked\WindowsNoEditor\BullCowGame\Metadata\Crypto.json -order=C:\repos\BullCowGame\BullCowGame-starter-kit\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log -patchpaddingalign=2048  C:\repos\BullCowGame\BullCowGame-starter-kit\BullCowGame.uproject -multiprocess -abslog="C:\Users\nitin singh\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+UE_4.22\UnrealPak-BullCowGame-WindowsNoEditor-2020.11.23-22.40.41.txt"
+  LogPakFile: Display: Parsing crypto keys from a crypto key cache file
+  LogPakFile: Display: Loading response file C:\Users\nitin singh\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+UE_4.22\PakList_BullCowGame-WindowsNoEditor.txt
+  LogPakFile: Display: Added 1347 entries to add to pak file.
+  LogPakFile: Display: Loading pak order file C:\repos\BullCowGame\BullCowGame-starter-kit\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log...
+  LogPakFile: Display: Finished loading pak order file C:\repos\BullCowGame\BullCowGame-starter-kit\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log.
+  LogPakFile: Display: Collecting files to add to pak file...
+  LogPakFile: Display: Collected 1347 files in 0.02s.
+  LogPakFile: Display: Encrypting using embedded key
+  LogPakFile: Display: Added 1347 files, 42445428 bytes total, time 26.04s.
+  LogPakFile: Display: Compression summary: 34.76% of original size. Compressed Size 40568076 bytes, Original Size 116722460 bytes.
+  LogPakFile: Display: Encryption - DISABLED
+  LogPakFile: Display: Unreal pak executed in 26.156807 seconds
+UnrealPak terminated with exit code 0
+Copying NonUFSFiles to staging directory: C:\repos\BullCowGame\BullCowGame-starter-kit\Saved\StagedBuilds\WindowsNoEditor
+Copying DebugFiles to staging directory: C:\repos\BullCowGame\BullCowGame-starter-kit\Saved\StagedBuilds\WindowsNoEditor
+********** STAGE COMMAND COMPLETED **********
+********** PACKAGE COMMAND STARTED **********
+********** PACKAGE COMMAND COMPLETED **********
+BUILD SUCCESSFUL
+AutomationTool exiting with ExitCode=0 (Success)
+
